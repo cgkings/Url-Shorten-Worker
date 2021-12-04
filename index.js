@@ -1,6 +1,6 @@
 // 项目名，决定html从哪个项目获取，
 const github_repo = typeof(GITHUB_REPO)!="undefined" ? GITHUB_REPO
-    : 'AoEiuV020/Url-Shorten-Worker'
+    : 'cgkings/Url-Shorten-Worker'
 // 项目版本，cdn会有缓存，所以有更新时需要指定版本，
 const github_version = typeof(GITHUB_VERSION)!="undefined" ? GITHUB_VERSION
     : '@main'
